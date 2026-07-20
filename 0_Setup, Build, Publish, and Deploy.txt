@@ -1,0 +1,13 @@
+ l/auditd (20339): type=1400 audit(0.0:5937398): avc: denied {search } for comm="eertel.cit.test" name="0" dev="dm-37" ino=222 scontext=u:r:cit_test_app:s0 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=0
+ l/auditd (387): avc: denied { find } for pid=20339 uid=1000 name=game scontext=u:r:cit_test_app:s0 tcontext=u:object_r:game_service:s0 tclass=service_manager permissive=0
+ l/am_proc_died(1266): [0,20065,com.google.process.gapps,700,15]
+ l/am_proc_start( 1266): [0,20339,1000,com.longcheertel.cit.test,service,{com.longcheertel.sarauth/com.longcheertel.sarauth.ThermalManagerService}]
+ l/am_proc_died(1266): [018910 com.google.process.aservices: 700 15]
+ l/auditd (20339): type=1400 audit(0.0:5937397): avc: denied{search } for comm="eertel.cit.test" name="0" dev="dm-37" ino=222 scontext=u:r:cit_test_app:s0 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=0
+ l/am_wtf (1266): [0,20339,com.longcheertel.cit.test,545832517 SystemServiceRegistry, No se ha publicado ningún servicio para el juego]
+ l/am_proc_died(1266): [0,20065,com.google.process.gapps,700,15]
+ l/killinfo(386): [18910,10125,700,0,29836,1,7336,270080,51572,764,4544,3152,2097148,1185000,79348,79724,129636,134028,55736,160192,38496,33180,0,0,264,0,79,0,0,32944,0,13,24,26.980000,7.1,60000,22.639999,2.020000,45.400002]
+ l/killinfo(386): [20065,10125,700,0,38992,0,6160,268572,53832,764,4544,3152,2097148,1185356,80800,81116,127788,134132,55736,160192,38368,33180,0,0,264,99,99,1,1,32396,0,0,0,26.980000,7.160000,22.639999,2.020000,45.400002]
+ l/am_uid_running( 1266): 10284 type=1400 audit(0.0:5937396): avc: denied { search } for comm="eertel.cit.test" name="0" dev="dm-37" ino=222 scontext=u:r:cit_test_app:s0 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=0
+ l/am_proc_start( 1266): [0,20339,1000,com.longcheertel.cit.test,service: {com.longcheertel.sarauth/com.longcheertel.sarauth.ThermalManagerService}]
+ l/am_proc_died(1266):[018910,com.google.process.aservices,700,15]
