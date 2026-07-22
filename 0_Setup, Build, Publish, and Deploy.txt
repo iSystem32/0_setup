@@ -1,13 +1,138 @@
- l/auditd (20339): type=1400 audit(0.0:5937398): avc: denied {search } for comm="eertel.cit.test" name="0" dev="dm-37" ino=222 scontext=u:r:cit_test_app:s0 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=0
- l/auditd (387): avc: denied { find } for pid=20339 uid=1000 name=game scontext=u:r:cit_test_app:s0 tcontext=u:object_r:game_service:s0 tclass=service_manager permissive=0
- l/am_proc_died(1266): [0,20065,com.google.process.gapps,700,15]
- l/am_proc_start( 1266): [0,20339,1000,com.longcheertel.cit.test,service,{com.longcheertel.sarauth/com.longcheertel.sarauth.ThermalManagerService}]
- l/am_proc_died(1266): [018910 com.google.process.aservices: 700 15]
- l/auditd (20339): type=1400 audit(0.0:5937397): avc: denied{search } for comm="eertel.cit.test" name="0" dev="dm-37" ino=222 scontext=u:r:cit_test_app:s0 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=0
- l/am_wtf (1266): [0,20339,com.longcheertel.cit.test,545832517 SystemServiceRegistry, No se ha publicado ningún servicio para el juego]
- l/am_proc_died(1266): [0,20065,com.google.process.gapps,700,15]
- l/killinfo(386): [18910,10125,700,0,29836,1,7336,270080,51572,764,4544,3152,2097148,1185000,79348,79724,129636,134028,55736,160192,38496,33180,0,0,264,0,79,0,0,32944,0,13,24,26.980000,7.1,60000,22.639999,2.020000,45.400002]
- l/killinfo(386): [20065,10125,700,0,38992,0,6160,268572,53832,764,4544,3152,2097148,1185356,80800,81116,127788,134132,55736,160192,38368,33180,0,0,264,99,99,1,1,32396,0,0,0,26.980000,7.160000,22.639999,2.020000,45.400002]
- l/am_uid_running( 1266): 10284 type=1400 audit(0.0:5937396): avc: denied { search } for comm="eertel.cit.test" name="0" dev="dm-37" ino=222 scontext=u:r:cit_test_app:s0 tcontext=u:object_r:system_data_file:s0:c512,c768 tclass=dir permissive=0
- l/am_proc_start( 1266): [0,20339,1000,com.longcheertel.cit.test,service: {com.longcheertel.sarauth/com.longcheertel.sarauth.ThermalManagerService}]
- l/am_proc_died(1266):[018910,com.google.process.aservices,700,15]
+
+import com.google.android.dialer;
+import android.work.impl.background.systemalarm.RescheduleReceiver;
+
+public class com.android.permisioncontroller.hibernation.HibernationBroadcastReceiver{
+    
+    @android.ossBinderProxy.transactNative(NativeMethod)
+    protected Process getBoardTemp(for outdoor mode 41000 savedInstanceState) {
+        android.app.IApplicationThread$Stub$Proxy.schenduleReceiver(IApplicationThread.java:1241).Process(com.google.android.apps.safetyhub (pid 15174)has died: cch+85 CEM)
+        sending.Broadcast(to ComponentInfo{savedInstanceState})
+    I/DropBoxManagerService( 1280): add tag=system_server_wtf is TagEnabled=true flags=0x02
+    E/AppOps ( 1280): Bad callmade by uid 10125. Package "com.google.android.gms" does not belong to uid 10141.
+    I/ActivityManager( 1280): Process com.google.android.apps.subscriptions.red (pid 15218) has died: cch+55 CEM
+    I/ActivityManager( 1280): Killing 15423:com.google.android.dialer/u0a122 (adj 955): empty #9
+    I/ActivityManager( 1280):
+        @Start proc 16213:ab.java.programming/
+        u0a216 for broadcast {ab.java.programming/
+            androidx.work.impl.background.systemalarm.ReschenduleReceiver}
+    I/am_uid_running( 1280):10153
+    I/am_uid_running( 1280):10060
+    I/am_uid_stopped( 1280):10218
+    I/am_uid_stopped( 1280):22386    
+    I/am_uid_stopped( 1280):2909
+    I/am_uid_stopped( 1280):2699 
+    I/am_uid_stopped( 1280):22319
+    I/am_uid_stopped( 1280):48000
+    I/am_uid_stopped( 1280):2718
+    I/am_uid_stopped( 1280):3215
+    I/am_uid_stopped( 1280):22093
+    I/am_uid_stopped( 1280):16903        
+    I/am_uid_stopped( 1280):6D380920
+    I/am_uid_stopped( 1280):176865248    
+    I/am_uid_stopped( 1280):423
+    I/am_uid_stopped( 1280):2068386912 
+    I/am_uid_stopped( 1280):9f6d973
+    I/am_uid_stopped( 1280):100000084
+    I/am_uid_stopped( 1280):1000628
+    I/am_uid_stopped( 1280):22299
+    I/am_uid_stopped( 1280):7997
+    I/am_uid_stopped( 1280):0x7f14055a
+    
+        
+    I/c2dm   ( 2114):
+    I/am_mem_factor( 1280):[3,1]
+    [-19,SUCCESSFUL,0,0]
+    W/ResourceType(23061): For resource Ox7f150576, entry index(1398) is beyond type
+    W/ResourceType(23061): For resource Ox7f150589, entry index(1417) is beyond type
+
+    W/ResourceType(23061): For resource Ox7f150572, entry index(1394) is beyond type
+
+    W/ResourceType(23061): For resource Ox7f150573, entry index(1395) is beyond type
+
+    W/ResourceType(23061): For resource Ox7f1508bf, entry index(2239) is beyond type
+
+    W/ResourceType(23061): For resource Ox7f1508be, entry index(2238) is beyond type
+
+    entryCount(380)
+
+    entryCount(380)
+
+    entryCount(380)
+
+    entryCount(380)
+
+    entryCount(380)
+
+    entryCount(380)
+
+    entryCount(380)
+
+    entryCount(380)
+    W/ResourceType(23061): For resource Ox7f150892, entry index(2194) is beyond type
+entryCount(380)
+    W/ResourceType(23061): For resource Ox7f150892, entry index(2194) is beyond type
+entryCount(380)
+    W/ResourceType(23061): For resource Ox7f150894, entry index(2196) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f150898, entry index(2200) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f150896, entry index(2198) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f150757, entry index(1879) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f1508a6, entry index(2214) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f15087d, entry index(2173) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f15087f, entry index(2175) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f150757, entry index(1879) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f1508a4, entry index(2212) is beyond type
+entryCount(380)
+entryCount(380)
+      W/ResourceType(23061): For resource Ox7f150880, entry index(2176) is beyond type
+     W/ResourceType(23061): For resource Ox7f150881, entry index(2177) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f150885, entry index(2181) is beyond type
+entryCount(380)
+     W/ResourceType(23061): For resource Ox7f150885, entry index(2181) is beyond type
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+        W/ResourceType(23061): For resource Ox7f150885, entry index(2181) is beyond type 
+        W/ResourceType(23061): For resource Ox7f150885, entry index(2181) is beyond type
+       W/ResourceType(23061): For resource Ox7f150888, entry index(2184) is beyond type
+       W/ResourceType(23061): For resource Ox7f15075c, entry index(1884) is beyond type
+      W/ResourceType(23061): For resource Ox7f1508aa, entry index(2218) is beyond type
+      W/ResourceType(23061): For resource Ox7f15088f, entry index(2191) is beyond type
+      W/ResourceType(23061): For resource Ox7f150890, entry index(2192) is beyond type
+      W/ResourceType(23061): For resource Ox7f1508a7, entry index(2215) is beyond type
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+entryCount(380)
+          W/ResourceType(23061): For resource Ox7f1508a8, entry index(2216) is beyond type
+         W/ResourceType(23061): For resource Ox7f15067d, entry index(1661) is beyond type
+          W/ResourceType(23061): For resource Ox7f1508a3, entry index(2211) is beyond type
+          W/ResourceType(23061): For resource Ox7f1508a5, entry index(2213) is beyond type
+          W/ResourceType(23061): For resource Ox7f1508b6, entry index(2230) is beyond type
+           W/ResourceType(23061): For resource Ox7f15088e, entry index(2190) is beyond type
+           W/ResourceType(23061): For resource Ox7f15088c, entry index(2188) is beyond type
+          W/ResourceType(23061): For resource Ox7f150576, entry index(1398) is beyond type
+   ~ W/ResourceType(23061): For resource Ox7f15055f, entry index(1375) is beyond type
+     
+    I/am_schendule_service_restart( 1280):[0,com.google.android.gms/.feedback.FeedbackAsyncService,24972];
+    }
+    
+}
