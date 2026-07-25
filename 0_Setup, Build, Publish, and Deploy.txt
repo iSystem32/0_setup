@@ -16,6 +16,10 @@ public class com.android.permisioncontroller.hibernation.HibernationBroadcastRec
         @Start proc 16213:ab.java.programming/
         u0a216 for broadcast {ab.java.programming/
             androidx.work.impl.background.systemalarm.ReschenduleReceiver}
+        W/ActivityManager(1261): Unable to start service Intent { act=com.google.android.gms.dck.service.START pkg=com.google.android.gms } U=0: not found
+W/ActivityManager(1261): Unbind failed: could not find connection for android.os.BinderProxy@f5e2388
+W/ActivityManager(1261): Unable to start service Intent {act=com.google.android.gms.mdocstore.service.MDOC_STORE pkg=com.google.android.gms } U=0: not found
+W/ActivityManager(1261): Unbind failed: could not find connection for android.os.BinderProxy@d18c121
     I/am_uid_running( 1280):10153
     I/am_uid_running( 1280):10060
     I/am_uid_stopped( 1280):10218
