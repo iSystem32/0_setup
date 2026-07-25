@@ -1,0 +1,25 @@
++
+# :
+STANDALONE_SYSTEMSERVER_JARS=/apex/c
+om.android.btservices/javalib/servic
+e-bluetooth.jar:/apex/com.android.os
+.statsd/javalib/service-statsd.jar:/
+apex/com.android.scheduling/javalib/
+service-scheduling.jar:/apex/com.and
+roid.tethering/javalib/service-conne
+ctivity.jar:/apex/com.android.uwb/ja
+valib/service-uwb.jar:/apex/com.andr
+oid.wifi/javalib/service-wifi.jar
+SYSTEMSERVERCLASSPATH=/system/framew
+ork/com.android.location.provider.ja
+r:/system/framework/services.jar:/ap
+ex/com.android.adservices/javalib/se
+rvice-adservices.jar:/apex/com.andro
+id.adservices/javalib/service-sdksan
+dbox.jar:/apex/com.android.appsearch
+/javalib/service-appsearch.jar:/apex
+/com.android.art/javalib/service-art
+.jar:/apex/com.android.media/javalib
+/service-media-s.jar:/apex/com.andro
+id.permission/javalib/service-permis
+sion.jar
