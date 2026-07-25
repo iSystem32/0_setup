@@ -1,0 +1,847 @@
+2026-07-25 17:54:04.193 [warning] [Ventana] Ignoring the error while validating workspace folder vscode-vfs://github/iSystem32/0_setup - ENOPRO: No se ha encontrado ningún proveedor de sistema de archivos para el recurso "vscode-vfs://github/iSystem32/0_setup"
+2026-07-25 17:54:04.662 [warning] [Ventana] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 26ms.
+2026-07-25 17:54:06.713 [info] [Ventana] Found additional builtin extension gallery resources in env ["https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-server/1.5.3/extension","https://github.vscode-unpkg.net/GitHub/codespaces/1.18.15/extension","https://github.vscode-unpkg.net/GitHub/vscode-pull-request-github/0.160.0/extension","https://github.vscode-unpkg.net/GitHub/remotehub/0.64.0/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode/0.0.75/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/azure-repos/0.40.0/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-kotlin/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-explorer/0.5.0/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-cpp/0.0.7/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-repositories/0.42.0/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-python/0.0.7/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-c-sharp/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-java/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-php/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-go/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-rust/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-typescript/0.0.7/extension"]
+2026-07-25 17:54:08.126 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 1)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.128 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 2)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.128 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 3)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.130 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 4)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.164 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 5)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.165 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 6)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.166 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 7)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.196 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 8)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.198 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 9)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.199 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 10)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.201 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 11)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.202 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 12)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.203 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 13)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.205 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 14)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.206 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 15)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.207 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 16)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.208 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 17)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.209 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 34)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.210 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 35)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.211 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 36)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.216 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 37)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.218 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 38)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.220 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 39)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.221 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 40)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.223 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 41)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.224 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 42)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.225 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 43)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.227 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 44)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.228 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 45)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.229 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 46)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.235 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 47)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.236 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 48)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.237 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 49)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.238 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 50)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.239 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 51)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.240 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 52)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.241 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 53)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.243 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 54)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.244 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 55)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.245 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 56)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.250 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 57)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.251 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 58)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.252 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 59)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.253 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 60)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.254 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 61)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.255 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 62)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.256 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 63)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.257 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 64)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.265 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 65)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.266 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 66)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.267 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 67)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.268 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 68)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.269 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 69)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.270 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 70)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.271 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 71)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.272 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 72)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.273 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 73)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.273 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 74)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.274 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 75)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.275 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 76)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.282 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 77)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.283 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 78)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.284 [error] [Ventana] TypeError: Failed to fetch
+    at pbt.readExtensionResource (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:40693)
+    at async Hnt.localizeManifest (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5611)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5115
+    at async Promise.all (index 79)
+    at async Hnt.scanBuiltinExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2024:5430)
+    at async Uvt.readSystemExtensions (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:42630)
+    at async O5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5308:87705)
+    at async https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50985
+    at async Promise.all (index 0)
+    at async j5e.getInstalled (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:5328:50934)
+    at async Bnt.initialize (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1979:31981)
+2026-07-25 17:54:08.553 [info] [Ventana] [AgentHost:remote] Initializing (enabled=false, remoteAuthority=none)
+2026-07-25 17:54:08.553 [info] [Ventana] [AgentHost:remote] Disabled via "chat.agentHost.enabled" or web runtime. Not connecting.
+2026-07-25 17:54:12.967 [info] [Ventana] Ignoring configured affinity for 'ms-vscode.remote-repositories' because extension host(s) are already running. Reload window.
+2026-07-25 17:54:12.967 [info] [Ventana] Ignoring configured affinity for 'GitHub.remotehub' because extension host(s) are already running. Reload window.
+2026-07-25 17:54:12.968 [info] [Ventana] Ignoring configured affinity for 'GitHub.vscode-pull-request-github' because extension host(s) are already running. Reload window.
+2026-07-25 17:54:12.968 [info] [Ventana] Ignoring configured affinity for 'vscode.github-authentication' because extension host(s) are already running. Reload window.
+2026-07-25 17:54:12.968 [info] [Ventana] Ignoring configured affinity for 'vscode.typescript-language-features' because extension host(s) are already running. Reload window.
+2026-07-25 17:54:12.968 [info] [Ventana] Ignoring configured affinity for 'vscode.git-base' because extension host(s) are already running. Reload window.
+2026-07-25 17:54:12.969 [info] [Ventana] Ignoring configured affinity for 'ms-vscode.anycode' because extension host(s) are already running. Reload window.
+2026-07-25 17:54:12.994 [info] [Ventana] Placing extension(s) vscode.git-base, vscode.github-authentication, ms-vscode.anycode, GitHub.remotehub, GitHub.vscode-pull-request-github, ms-vscode.remote-repositories, ms-vscode.azure-repos on a separate extension host.
+2026-07-25 17:54:13.016 [error] [Ventana] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-07-25 17:54:33.229 [error] [Ventana] Tool "renderMermaidDiagram" was not contributed.
+2026-07-25 17:54:36.736 [info] [Ventana] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-25 17:54:40.257 [info] [Ventana] Updating additional builtin extensions cache
+2026-07-25 17:54:41.823 [info] [Ventana] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-25 17:54:42.792 [warning] [Ventana] Creation of workbench contribution 'terminal.chatAgentTools' took 108ms.
+2026-07-25 17:54:43.127 [info] [Ventana] Settings Sync: Account status changed from uninitialized to unavailable
+2026-07-25 17:54:45.815 [info] [Cambios en la nube] Prompting to enable cloud changes, has application previously launched from Continue On flow: false
+2026-07-25 18:02:57.096 [info] [Ventana] Migrating global extension storage from github.codespaces to GitHub.codespaces...
+2026-07-25 18:02:57.097 [info] [Ventana] Migrated global extension storage from github.codespaces to GitHub.codespaces
+2026-07-25 18:02:57.099 [info] [Ventana] Migrating workspace extension storage from github.codespaces to GitHub.codespaces...
+2026-07-25 18:02:57.101 [info] [Ventana] Migrated workspace extension storage from github.codespaces to GitHub.codespaces
+2026-07-25 18:04:25.631 [error] [Ventana] potential listener LEAK detected, popular: Error
+    at s.create (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:431:18428)
+    at C2._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2009)
+    at Object.u [as onWillAddFirstListener] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:937:139839)
+    at Object._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2276)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:43888)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:59485)
+    at sI.redraw (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:73952)
+    at sI.handleOpenedEditors (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:60107)
+    at sI.openEditor (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:59570)
+    at XAe.openEditor (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1451:12091)
+    at py.doShowEditor (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1451:32338)
+    at py.doOpenEditor (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1451:31769)
+    at py.doMoveOrCopyEditorAcrossGroups (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1451:33916)
+    at py.copyEditor (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1451:34252)
+    at DDi (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1332:5226)
+    at s.run (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1335:2528)
+    at handler (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:441:38578)
+    at s.invokeFunction (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:2056:944)
+    at knt._tryExecuteCommand (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1963:4962)
+    at knt.executeCommand (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1963:4376)
+    at Bo.run (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:441:38255)
+    at Nie.runAction (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:439:31856)
+    at Nie.run (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:439:31759)
+    at Nie.run (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:38362)
+    at hc.onClick (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:937:126071)
+    at HTMLLIElement.<anonymous> (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:934:16862)
+    at Hw.dispatchEvent (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:513:18795)
+    at Hw.onTouchEnd (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:513:17334)
+    at HTMLDocument.<anonymous> (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:513:15475)
+2026-07-25 18:04:49.641 [error] [Ventana] potential listener LEAK detected, popular: Error
+    at s.create (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:431:18428)
+    at C2._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2009)
+    at Object.u [as onWillAddFirstListener] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:937:139839)
+    at Object._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2276)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:43888)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:59485)
+    at Xwe.value (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:43909)
+    at tCe._deliver (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:3268)
+    at tCe.fire (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:3587)
+    at tCe.resume (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:4876)
+    at https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:5233
+2026-07-25 18:05:09.210 [error] [Ventana] potential listener LEAK detected, popular: Error
+    at s.create (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:431:18428)
+    at C2._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2009)
+    at Object.u [as onWillAddFirstListener] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:937:139839)
+    at Object._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2276)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:43888)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:59485)
+    at Xwe.value (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:43909)
+    at tCe._deliver (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:3268)
+    at tCe.fire (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:3587)
+    at tCe.resume (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:4876)
+    at https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:5233
+2026-07-25 18:05:36.313 [error] [Ventana] potential listener LEAK detected, popular: Error
+    at s.create (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:431:18428)
+    at C2._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2009)
+    at Object.u [as onWillAddFirstListener] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:937:139839)
+    at Object._event [as onDidChange] (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:2276)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:43888)
+    at sI.updateEditorActionsToolbar (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:59485)
+    at Xwe.value (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:1343:43909)
+    at tCe._deliver (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:3268)
+    at tCe.fire (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:3587)
+    at tCe.resume (https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:4876)
+    at https://main.vscode-cdn.net/stable/1b6a188127eeaf9194f945eb6eb89a657e93c54c/out/vs/workbench/workbench.web.main.internal.js:433:5233
