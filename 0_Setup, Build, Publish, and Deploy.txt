@@ -42,11 +42,46 @@ W/ActivityManager(1261): Unbind failed: could not find connection for android.os
     I/am_uid_stopped( 1280):22299
     I/am_uid_stopped( 1280):7997
     I/am_uid_stopped( 1280):0x7f14055a
-    
-        
+--------- beginning of system
+    .894 W/ececution
+    Broadcast Queque( 1261): Background
+    execution not allowed: receiving intent
+    { act=android.intent.action.USER_PRESENT
+    flg=0x24200010 to
+    com.google.android.apps.work.cloudocl.base.receivers.UserPresentReceiver
     I/c2dm   ( 2114):
     I/am_mem_factor( 1280):[3,1]
     [-19,SUCCESSFUL,0,0]
+    .197 F/libc   ( 395):
+    crash_dump helper failed to exec, or was
+    Killed
+    .652 F/libc    ( 395):
+    crash_dump helper failed to exec; or was 
+    Killed
+    .913 F/libc   ( 395):
+    crash_dump helper failed to exec or was
+    Killed
+    .461 E/AndroidRuntime(22394):
+    at java.lang.String.concat(Native Method)
+    .461 E/AndroidRuntime(22394):
+    at cal.aapp.b(PG:640)
+    .461 E/AndroidRuntime(22394):
+    at cal.aavi.h(PG:8)
+    .461 E/AndroidRuntime(22394):
+    at cal.aaux.h(PG:5)
+    .461 E/AndroidRuntime(22394):
+    at cal.aawf.q(PG:12)
+    .461 E/AndroidRuntime(22394):
+    at cal.aawf.r(PG:13)
+    .461 E/AndroidRuntime(22394):
+    at cal.aawf.d(PG:19)
+    .461 E/AndroidRuntime(22394):    at cal.aawk.handleMessage(PG:1043)
+    .461 E/AndroidRuntime(22394): at android.os.Handler.dispatch.Message(Hadler.java:102)
+    .461 E/AndroidRuntime(22394): at android.os.Looper.loopOnce(Looper.java:201)
+    .461 E/AndroidRuntime(22394): at android.os.Looper.loop(Looper.java:288)
+    .461 E/AndroidRuntime(22394): at android.os.HandlerThread.run(HandlerThread.java:67)
+--------- beginning of sistem
+
     W/ResourceType(23061): For resource Ox7f150576, entry index(1398) is beyond type
     W/ResourceType(23061): For resource Ox7f150589, entry index(1417) is beyond type
 
