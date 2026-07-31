@@ -1,0 +1,105 @@
+2026-07-31 19:55:00.277 [warning] [Window] Ignoring the error while validating workspace folder vscode-vfs://github/iSystem32/0_setup - ENOPRO: No file system provider was found for the resource "vscode-vfs://github/iSystem32/0_setup"
+2026-07-31 19:55:00.752 [warning] [Window] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 32ms.
+2026-07-31 19:55:01.728 [info] [Window] Found additional builtin extension gallery resources in env ["https://github.vscode-unpkg.net/GitHub/vscode-pull-request-github/0.162.0/extension","https://github.vscode-unpkg.net/GitHub/codespaces/1.18.15/extension","https ://ms-vscode.vscode-unpkg.net/ms-vscode/remote-server/1.5.3/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode/0.0.75/extension","https://ms-vscode.v scode-unpkg.net/ms-vscode/azure-repos/0.40.0/extension","https://github.vscode-unpkg.net/GitHub/remotehub/0.64.0/extensionhttps://ms-vscode.vscode-unpkg.net/ms-vscode/remote-explorer/0.5.0/extensionhttps://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-kotlin/0.0.8/extensionhttps://ms-vscode.vscode-unpkg.net/ms-vscode/ remote-repositories/0.42.0/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-rust/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/any code-php/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-java/0.0.8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-go/0.0. 8/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-python/0.0.7/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-c-sharp/0.0.8/exte nsion","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-cpp/0.0.7/extension","https://ms-vscode.vscode-unpkg.net/ms-vscode/anycode-typescript/0.0.7/extension"]
+2026-07-31 19:55:02.924 [info] [Window] [AgentHost:remote] Initializing (enabled=false, remoteAuthority=none)
+2026-07-31 19:55:02.924 [info] [Window] [AgentHost:remote] Disabled via "chat.agentHost.enabled" or web runtime. Not connecting.
+2026-07-31 19:55:02.973 [info] [Window] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-31 19:55:03.950 [info] [Cloud Changes] Resuming cloud changes, reason: cloud changes enabled...
+2026-07-31 19:55:03.950 [info] [Cloud changes] Checking for pending cloud changes...
+2026-07-31 19:55:05.645 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-server/1.5.3/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.650 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-explorer/0.5.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.653 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-repositories/0.42.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.658 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/azure-repos/0.40.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.661 [error] [Window] Error while fetching translations of an extension https://github.vscode-unpkg.net/GitHub/remotehub/0.64.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.665 [error] [Window] Error while fetching translations of an extension https://github.vscode-unpkg.net/GitHub/vscode-pull-request-github/0.162.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.695 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:05.713 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-server/1.5.3/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.715 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-explorer/0.5.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.716 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/remote-repositories/0.42.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.718 [error] [Window] Error while fetching translations of an extension https://ms-vscode.vscode-unpkg.net/ms-vscode/azure-repos/0.40.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.719 [error] [Window] Error while fetching translations of an extension https://github.vscode-unpkg.net/GitHub/remotehub/0.64.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:05.721 [error] [Window] Error while fetching translations of an extension https://github.vscode-unpkg.net/GitHub/vscode-pull-request-github/0.162.0/extension/package.nls.es.json Failed to fetch
+2026-07-31 19:55:06.864 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 19:55:07.820 [info] [Window] Placing extension(s) vscode.git-base, vscode.github-authentication, ms-vscode.anycode, ms-vscode.remote-repositories, ms-vscode.azure-repos, GitHub.remotehub, GitHub.vscode-pull-request-github on a separate extension host.
+2026-07-31 19:55:07.840 [error] [Window] [vscode.mermaid-markdown-features]: Extension 'vscode.mermaid-markdown-features' CANNOT use 'legacyToolReferenceFullNames' without the 'chatParticipantPrivate' API proposal enabled
+2026-07-31 19:55:08.286 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:08.403 [info] [Cloud changes] Searching for existing authentication session with ID 27906453884e6203
+2026-07-31 19:55:08.773 [info] [Window] Settings Sync: Account status changed from uninitialized to unavailable
+2026-07-31 19:55:08.965 [info] [Window] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-31 19:55:09.565 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:10.667 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:11.669 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:11.918 [info] [Window] Updating additional builtin extensions cache
+2026-07-31 19:55:12.175 [info] [Cloud changes] Found existing authentication session with ID 27906453884e6203
+2026-07-31 19:55:12.870 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:13.128 [info] [Cloud changes] Aborting summarizing edit session as no edit session content is available to be applied
+2026-07-31 19:55:13.144 [info] [Window] Migrating workspace extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github...
+2026-07-31 19:55:13.146 [info] [Window] Migrated workspace extension storage from github.vscode-pull-request-github to GitHub.vscode-pull-request-github
+2026-07-31 19:55:13.181 [info] [Window] Migrating workspace extension storage from github.remotehub to GitHub.remotehub...
+2026-07-31 19:55:13.182 [info] [Window] Migrated workspace extension storage from github.remotehub to GitHub.remotehub
+2026-07-31 19:55:14.382 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:15.707 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:16.989 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:21.354 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:22.838 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:25.949 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:27.688 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:30.680 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:32.818 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:34.827 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:38.048 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:39.687 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:42.375 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:55:45.314 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:03.482 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:07.086 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:31.796 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:36.443 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:37.604 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 19:56:40.553 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:43.495 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:46.013 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 19:56:47.784 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:56:56.619 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:57:08.039 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:57:41.788 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 19:57:59.161 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:06:46.650 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:07:16.871 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:07:18.415 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:07:33.766 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:08:58.183 [info] [Window] Extension host (LocalWebWorker) is unresponsive.
+2026-07-31 20:08:58.188 [info] [Window] Extension host (LocalWebWorker) is unresponsive.
+2026-07-31 20:26:44.064 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:26:52.169 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:26:56.183 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:27:11.716 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:27:20.764 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:27:24.370 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:27:37.596 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:28:03.765 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:28:10.385 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 20:28:11.401 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 20:28:13.245 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:01:54.381 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:01:55.516 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:02:00.906 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 21:02:22.335 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:02:24.506 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:02:32.521 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:02:39.707 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:02:55.158 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:03:00.808 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 21:03:04.191 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 21:03:10.763 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:03:12.683 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:03:20.715 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:03:22.514 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:03:34.407 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:03:54.504 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:04:00.251 [error] [Window] An unknown error has occurred. Please refer to the log for details.
+2026-07-31 21:04:15.489 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:04:18.163 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:04:22.544 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:04:31.544 [error] [Window] An unknown error has occurred. Please see the log for details.
+2026-07-31 21:04:47.117 [error] [Window] An unknown error has occurred. Please see the log for details.
