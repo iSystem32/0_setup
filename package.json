@@ -1,0 +1,8 @@
+{
+  "endpoint": "/repos/iSystem32/0_setup/contents?ref=main",
+  "page": 1,
+  "perPage": 100,
+  "repo": "iSystem32/0_setup",
+  "task": "list repository root contents on main branch",
+  "userQuery": "List files in root of iSystem32/0_setup on branch main to include in README audit"
+}
