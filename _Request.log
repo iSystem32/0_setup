@@ -1,0 +1,19 @@
+.263 [info] [Activation] Extension version: 0.162.0
+.320 [info] [Authentication] Creating hub for .com
+.507 [info] [Activation] Registering built in git provider.
+.508 [info] [Activation] Looking for git repository
+.509 [info] [Activation] Found 0 repositories during activation
+.509 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+.687 [info] [GitPostCommitCommands] Trying to register post commit commands.
+.712 [info] [GitAPI] Registering git provider
+.462 [info] [GitAPI] Repository vscode-vfs://github/iSystem32/0_setup has been opened
+.465 [info] [Review+0] Validate state in progress
+.467 [info] [Review+0] Validating state...
+.538 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /iSystem32/0_setup
+.979 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+.982 [info] [GitPostCommitCommands] Trying to register post commit commands.
+.983 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+.043 [info] [Review+0] No matching pull request metadata found locally for current branch main
+.185 [error] [FolderRepositoryManager+0] Error parsing assignableUsers cache for origin.
+.185 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+.593 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
