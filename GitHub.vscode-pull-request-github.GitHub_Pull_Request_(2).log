@@ -1,0 +1,33 @@
+2026-07-31 19:55:15.263 [info] [Activation] Extension version: 0.162.0
+2026-07-31 19:55:15.320 [info] [Authentication] Creating hub for .com
+2026-07-31 19:55:15.507 [info] [Activation] Registering built in git provider.
+2026-07-31 19:55:15.508 [info] [Activation] Looking for git repository
+2026-07-31 19:55:15.509 [info] [Activation] Found 0 repositories during activation
+2026-07-31 19:55:15.509 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-07-31 19:55:15.687 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-07-31 19:55:15.712 [info] [GitAPI] Registering git provider
+2026-07-31 19:55:16.462 [info] [GitAPI] Repository vscode-vfs://github/iSystem32/0_setup has been opened
+2026-07-31 19:55:16.465 [info] [Review+0] Validate state in progress
+2026-07-31 19:55:16.467 [info] [Review+0] Validating state...
+2026-07-31 19:55:16.538 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /iSystem32/0_setup
+2026-07-31 19:55:16.979 [info] [FolderRepositoryManager+0] Trying to use globalState for assignableUsers.
+2026-07-31 19:55:16.982 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-07-31 19:55:16.983 [info] [GitPostCommitCommands] GitHub remote(s) found, registering post commit commands.
+2026-07-31 19:55:17.043 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-07-31 19:55:17.185 [error] [FolderRepositoryManager+0] Error parsing assignableUsers cache for origin.
+2026-07-31 19:55:17.185 [info] [FolderRepositoryManager+0] Using globalState assignableUsers for 1.
+2026-07-31 19:55:17.593 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-07-31 20:00:16.459 [info] [Review+0] Skipping poll: window is not focused
+2026-07-31 20:05:52.547 [info] [Activation] Repo state for vscode-vfs://github/iSystem32/0_setup changed.
+2026-07-31 20:05:52.564 [info] [Activation] Repo vscode-vfs://github/iSystem32/0_setup has already been setup.
+2026-07-31 20:06:12.859 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-07-31 20:06:12.868 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-07-31 20:06:13.741 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
+2026-07-31 20:06:13.782 [info] [Review+0] Polling found no change. Backing off to 600s.
+2026-07-31 20:07:17.779 [info] [Review+0] Validate state in progress
+2026-07-31 20:07:17.782 [info] [Review+0] Validating state...
+2026-07-31 20:07:17.858 [info] [FolderRepositoryManager+0] Found GitHub remote for folder /iSystem32/0_setup
+2026-07-31 20:07:17.866 [info] [FolderRepositoryManager+0] Using in-memory cached assignable users.
+2026-07-31 20:07:17.869 [info] [Review+0] No matching pull request metadata found locally for current branch main
+2026-07-31 20:07:18.190 [info] [Review+0] Skipping GitHub check for branch main: no new PRs since last check
+2026-07-31 20:07:18.194 [info] [Review+0] No matching pull request metadata found on GitHub for current branch main
