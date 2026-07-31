@@ -1,0 +1,8 @@
+{
+  "endpoint": "/repos/iSystem32/0_setup/contents?ref=iSystem32-parche-2",
+  "page": 1,
+  "perPage": 30,
+  "repo": "iSystem32/0_setup",
+  "task": "list files in branch iSystem32-parche-2",
+  "userQuery": "List files at repository root for branch iSystem32-parche-2 in iSystem32/0_setup"
+}
