@@ -81,6 +81,88 @@ W/ActivityManager(1261): Unbind failed: could not find connection for android.os
     .461 E/AndroidRuntime(22394): at android.os.Looper.loop(Looper.java:288)
     .461 E/AndroidRuntime(22394): at android.os.HandlerThread.run(HandlerThread.java:67)
 --------- beginning of sistem
+--------- beginning of main
+07-31 19:23:32.453 D/WifiStateMachine(3210): get link layer stats O
+07-31 19:23:32.456 D/WifiNative-wlan0(3210): doString: [SIGNAL_POLL]
+07-31 19:23:32.458 D/wpa_supplicant( 3433): wlan0: Control interface command 'SIGNAL_POLL'
+07-31 19:23:32.467 D/WifiStateMachine(3210): fetchRssiLinkSpeedAnd FrequencyNative rssi=-59 linkspeed=26
+freq=2422
+07-31 19:23:32.469 D/WifiConfigManager( 3210): updateConfiguration freq=2422 BSSID=f8:79:28:69:4d:28
+RSSI=-58 "Mega_2.4G_4D28"WPA_PSK
+07-31 19:23:32.471 D/WifiStateMachine(3210): calculateWifiScore freq=2422 speed=26 score=60 highRSSI ->
+txbadrate=0.00 txgoodrate=12.13 txretriesrate=0.00 rxrate=12.65 userTriggerd PenaltyO
+07-31 19:23:32.472 D/WifiStateMachine(3210): good link -> stuck count =0
+07-31 19:23:32.473 D/WifiStateMachine(3210): badRSSI counto lowRSSI countO --> score 60
+07-31 19:23:32.473 D/WifiStateMachine(3210): isHighRSSI ---> score=60
+07-31 19:23:32.474 D/WifiStateMachine( 3210): Current network is: "Mega_2.4G_4D28", ID is: 0
+07-31 19:23:32.474 D/WifiStateMachine(3210): 24GHz mQnsLowerRssiThreshold is recovered, currentRssi = 60
+07-31 19:23:32.474 D/WifiStateMachine(3210): not enough dual-band rssi, bail out...
+07-31 19:23:32.477 D/NetworkController( 3477): onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED
+flg=0x4000010 launchParam-MultiScreen LaunchParams { mDisplayId=0 mFlags=0} bqHint=1 (has extras) }
+07-31 19:23:35.483 D/WifiStateMachine( 3210): ConnectedState !CMD_RSSI_POLL rt=158268300/159400932
+600 "Mega_2.4G_4D28" f8:79:28:69:4d:28 rssi=-59 f=2422 sc=60 link=26 tx=12.1, 0.0, 0.0 rx=12.6 bcn=0 [on:
+0 tx:0 rx:0 period:3005] from screen [on:0 period:-1184179654] gl hn rssi=60 ag=0 hr ticks 0,44,925 Is-=0
+[56,56,60,60,65] brc=0 Irc=0 offload-stopped
+07-31 19:23:35.488 D/WifiStateMachine( 3210): L2ConnectedState !CMD_RSSI_POLL rt=158268307/159400939
+60 0 "Mega_2.4G_4D28" f8:79:28:69:4d:28 rssi=-59 f=2422 sc=60 link=26 tx=12.1, 0.0, 0.0 rx=12.6 bcn=0
+[on:0 tx:0 rx:0 period:5] from screen [on:0 period:-1184179649] gl hn rssi--54 ag=0 hr ticks 0,44,925 Is-=0
+[56,56,60,60,65] brc=0 Irc=0 offload-stopped
+07-31 19:23:35.488 D/WifiStateMachine(3210): get link layer stats O
+07-31 19:23:35.491 D/WifiNative-wlan0(3210): doString: [SIGNAL_POLL]
+07-31 19:23:35.492 D/wpa_supplicant( 3433): wlan0: Control interface command 'SIGNAL_POLL'
+07-31 19:23:35.502 D/WifiStateMachine( 3210): fetchRssiLinkSpeedAnd FrequencyNative rssi--58 linkspeed=26
+freq=2422
+07-31 19:23:35.505 D/WifiConfigManager(3210): updateConfiguration freq=2422 BSSID=f8:79:28:69:4d:28
+RSSI=-58 "Mega_2.4G_4D28"WPA_PSK
+07-31 19:23:35.508 D/WifiStateMachine(3210): calculateWifiScore freq=2422 speed=26 score=60 highRSSI
+txbadrate=0.00 txgood rate=6.06 txretriesrate=0.00 rxrate=6.32 userTriggerd Penalty
+07-31 19:23:35.508 D/WifiStateMachine( 3210): good link -> stuck count =0
+07-31 19:23:35.509 D/WifiStateMachine(3210): badRSSI countO lowRSSI countO --> score 60
+07-31 19:23:35.509 D/WifiStateMachine( 3210): isHighRSSI ---> score=60
+07-31 19:23:35.511 D/WifiStateMachine(3210): Current network is: "Mega_2.4G_4D28", ID is: 0
+07-31 19:23:35.512 D/WifiStateMachine(3210): 24GHz mQnsLowerRssiThreshold is recovered, currentRssi = -58
+07-31 19:23:35.512 D/WifiStateMachine(3210): not enough dual-band rssi, bail out...
+07-31 19:23:35.514 D/NetworkController(3477): onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED
+flg=0x4000010 launchParam-MultiScreen LaunchParams { mDisplayld=0 mFlags=0} bqHint=1 (has extras) }
+07-31 19:23:35.515 D/NetworkController( 3477): updateCarrierText: Mega_2.4G_4D28
+07-31 19:23:35.515 D/NetworkController( 3477): dynamicallyReduce TextSize: mDisplayMetrics.densityDpi320
+07-31 19:23:35.519 D/Keyguard Update Monitor( 3477): received broadcast
+com.samsung.systemui.ACTION_VOIP_CALL_STATE_CHANGED
+07-31 19:23:35.519 D/CarrierText( 3477): updateCarrierText(): 0,DefaultText = Sin conexión de red
+07-31 19:23:35.519 D/MultiSimUtils (3477): isSimState ReadyorNot Ready(): simSlot = 0, simState = NOT_READY
+07-31 19:23:35.520 D/CarrierText( 3477): setText: Perfil Fuera de línea
+07-31 19:23:35.523 D/Keyguard ClockPage( 3477): onRefreshCarrierInfo(pre, now): false, false
+07-31 19:23:35.523 D/CarrierText( 3477): updateCarrierText(): 0,DefaultText = Sin conexión de red
+07-31 19:23:35.523 D/MultiSimUtils (3477): isSimStateReadyorNot Ready(): simSlot = 0, simState = NOT_READY
+07-31 19:23:35.524 D/CarrierText( 3477): setText: Perfil Fuera de línea
+beginning of system
+07-31 19:23:36.147 E/Watchdog(3210): !@Sync 5271 [2026-07-31 19:23:36.146]
+07-31 19:23:38.520 D/WifiStateMachine(3210): ConnectedState !CMD_RSSI_POLL rt=158271338/159403970 60 0
+"Mega_2.4G_4D28" f8:79:28:69:4d:28 rssi=-58 f=2422 sc=60 link=26 tx=6.1, 0.0, 0.0 rx=6.3 bcn=0 [on:0 tx:0 rx:0
+period:3004] from screen [on:0 period:-1184176617] gl hn rssi=-53 ag=0 hr ticks 0,44,925 Is-=0 [56,56,60,60,65]
+brc=0 Irc=0 offload-stopped
+07-31 19:23:38.526 D/WifiStateMachine( 3210): L2ConnectedState !CMD_RSSI_POLL rt=158271344/159403977 60
+O "Mega_2.4G_4D28" f8:79:28:69:4d:28 rssi--58 f=2422 sc=60 link=26 tx=6.1, 0.0, 0.0 rx-6.3 bcn=0 [on:0 tx:0 rx:
+O period:6] from screen [on:0 period:-1184176611] gl hn rssi=-53 ag=0 hr ticks 0,44,925 Is--0 [56,56,60,60,65]
+brc=0 Irc=0 offload-stopped
+07-31 19:23:38.526 D/WifiStateMachine( 3210): get link layer stats O
+07-31 19:23:38.529 D/WifiNative-wlan0(3210): doString: [SIGNAL_POLL]
+07-31 19:23:38.530 D/wpa_supplicant( 3433): wlan0: Control interface command 'SIGNAL_POLL'
+07-31 19:23:38.543 D/WifiStateMachine(3210): fetchRssiLinkSpeedAnd FrequencyNative rssi=-59 linkspeed=26
+freq=2422
+07-31 19:23:38.549 D/WifiConfigManager(3210): updateConfiguration freq=2422 BSSID=f8:79:28:69:4d:28
+RSSI=-58 "Mega_2.4G_4D28"WPA_PSK
+07-31 19:23:38.554 D/WifiStateMachine(3210): calculateWifiScore freq=2422 speed=26 score=60 highRSSI ->
+txbadrate=0.00 txgoodrate=3.03 txretriesrate=0.00 rxrate=3.16 userTriggerd PenaltyO
+07-31 19:23:38.555 D/WifiStateMachine(3210): good link -> stuck count =0
+07-31 19:23:38.556 D/WifiStateMachine(3210): badRSSI counto lowRSSI count --> score 56
+07-31 19:23:38.556 D/WifiStateMachine(3210): isHighRSSI ---> score=60
+07-31 19:23:38.557 D/WifiStateMachine( 3210): Current network is: "Mega_2.4G_4D28", ID is: 0
+07-31 19:23:38.557 D/WifiStateMachine( 3210): 24GHz mQnsLower RssiThreshold is recovered, currentRssi = -59
+07-31 19:23:38.558 D/WifiStateMachine(3210): not enough dual-band rssi, bail out...
+--------- beginning of main
+--------- beginning of sistem
+
 
     W/ResourceType(23061): For resource Ox7f150576, entry index(1398) is beyond type
     W/ResourceType(23061): For resource Ox7f150589, entry index(1417) is beyond type
