@@ -252,7 +252,22 @@ entryCount(380)
            W/ResourceType(23061): For resource Ox7f15088c, entry index(2188) is beyond type
           W/ResourceType(23061): For resource Ox7f150576, entry index(1398) is beyond type
    ~ W/ResourceType(23061): For resource Ox7f15055f, entry index(1375) is beyond type
-     
+
+
+
+
+l/art (2715): Starting a blocking GC Background
+l/art(2715): Starting a blocking GC Background
+l/art(2715): Starting a blocking GC Heap Trim
+41.864 W/brzw (16160): WebChannelDataOverHttpClient is not provided in XplatHttpClientConfig. Attempting to call BidiGenerate will fail!
+41.864 W/brzw (16160): WebChannelDataOverHttpClient is not provided in XplatHttpClientConfig. Attempting to call BidiGenerate will fail!
+41.658 D/TextView(16160): setTypeface with style : 0
+41.665 I/Finsky (22551): [8028] SysUA: Disable System UpdateActivity, because Android is lower than Q
+41.666 D/PackageManager( 3216): setEnabledSetting: userld = 10 packageName = com.android.vending cmp=com.google.android.finsky.systemupdateactivity.SystemUpdateActivity newState = 2 calling Package = 1010028
+41.666 W/VideoCapabilities(16160): Unrecognized profile/level 1/32 for video/mp4v-es
+41.666 W/VideoCapabilities (16160): Unrecognized profile/level 32768/2 for video/mp4v-es
+08-01 09:36:41.666 W/VideoCapabilities(16160): Unrecognized profile/level 32768/64 for video/mp4v-es
+41.667 D/PackageManager( 3216): setEnabled Setting: userld = 10 packageName = com.android.vending cmp=com.google.android.finsky.activities.DebugActivity newState = 2 calling Package 1010028
     I/am_schendule_service_restart( 1280):[0,com.google.android.gms/.feedback.FeedbackAsyncService,24972];
     }
     
