@@ -1,0 +1,65 @@
+---------  inicio del sistema
+08-02 02:10:32.663 D/SSRM:t (3214): SIOP:: AP = 480, PST = 544 (W:10), LCD = 66
+---------  comienzo de principal
+08-02 02:10:32.665 D/Monitor de actualización de Keyguard (3504): transmisión recibida com.samsung.systemui.ACTION_VOIP_CALL_STATE_CHANGED
+08-02 02:10:32.668 Vhong (3504): yDiff medio = 280
+08-02 02:10:32.668 Vhong (3504): yDiff medio = 280
+08-02 02:10:32.668 Vhong (3504): yDiff medio = 280
+08-02 02:10:32.668 Vhong (3504): yDiff medio = 280
+08-02 02:10:32.670 D/CarrierText( 3504): updateCarrierText(): O,DefaultText = Sin conexión de red
+08-02 02:10:32.670 D/MultiSimUtils( 3504): isSimStateReadyorNotReady(): simSlot = 0, simState = NOT_READY
+08-02 02:10:32.670 D/CarrierText( 3504): setText: Perfil Fuera de línea
+08-02 02:10:32.673 D/Keyguard ClockPage( 3504): en RefreshCarrierInfo(pre, now): false, false
+08-02 02:10:32.676 D/TelephonyManager( 3214): getAllCellInfo: Llamante (PID/UID/TID): 3214/1000/9690
+08-02 02:10:32.776 D/CompatibilityInfo( 3214): mCompatibilityFlags - 4
+08-02 02:10:32.776 D/CompatibilityInfo(3214): Densidad de la aplicación - 320
+08-02 02:10:32.777 D/CompatibilityInfo(3214): applicationScale - 1.0
+08-02 02:10:32.800 D/CompatibilityInfo(3214): Indicadores de compatibilidad de dispositivos - 4
+08-02 02:10:32.800 D/CompatibilityInfo(3214): Densidad de la aplicación - 320
+08-02 02:10:32.800 D/CompatibilityInfo(3214): applicationScale - 1.0
+08-02 02:10:32.821 D/SamsungAlarmManager(3214): Cancelar alarma llamando desde uid:10007 pid:4869/ op:PendingIntent{410caba: PendingIntentRecord{d7fc399 com.google.android.gms broadcastIntent}}
+08-02 02:10:32.840 D/InputReader( 3214): Evento de entrada(1): valor=1 cuando=24050172500000
+08-02 02:10:32.840 I/InputReader(3214): La acción del evento táctil es OxO (tipo de dispositivo=0) [pCnt=1, s=0.10692] cuando=24050172500000
+08-02 02:10:32.841 I/InputDispatcher( 3214): Entregando toque a (3504): acción: Ox4, tipo de herramienta: 1
+08-02 02:10:32.841 I/InputDispatcher(3214): Entregando toque a (6780): acción: OxO, tipo de herramienta: 1
+08-02 02:10:32.865 D/ViewRootImpl@eb75fbb[ZArchiver]( 6780): Vista PostimeInputStage proceso Puntero O
+08-02 02:10:32.896 D/InputReader( 3214): Evento de entrada (1): valor=0 cuando=24050228269000
+08-02 02:10:32.896 I/InputReader( 3214): La acción del evento táctil es Ox1 (deviceType=0) [pCnt=1, s=] cuando=24050228269000
+08-02 02:10:32.896 I/InputDispatcher(3214): Entregando toque a (6780): acción: Ox1, toolType: 1
+08-02 02:10:32.923 D/CompatibilityInfo( 3214): Indicadores de compatibilidad - 4
+08-02 02:10:32.923 D/CompatibilityInfo(3214): Densidad de la aplicación - 320
+08-02 02:10:32.923 D/CompatibilityInfo(3214): applicationScale - 1.0
+08-02 02:10:32.927 D/ViewRootImpl@eb75fbb[ZArchiver]( 6780): ViewPostimeInputStage processPointer 1
+08-02 02:10:32.928 D/AbsListView( 6780): onTouchUp() mTouchMode: -1
+08-02 02:10:32.934 D/SamsungAlarmManager( 3214): setinexact Intent (T:3/F:0/AC:false) 20260802T022456 - CU:10007/CP:4869
+08-02 02:10:32.936 D/CompatibilityInfo(3214): Indicadores de compatibilidad de dispositivos - 4
+08-02 02:10:32.936 D/CompatibilityInfo(3214): Densidad de la aplicación - 320
+08-02 02:10:32.936 D/CompatibilityInfo( 3214): applicationScale - 1.0
+08-02 02:10:32.941 D/SamsungAlarmManager(3214): Cancelar alarma llamando desde uid:10007 pid:4869/ op:PendingIntent{c70d886: PendingIntentRecord{d7fc399 com.google.android.gms broadcastIntent}}
+08-02 02:10:32.945 I/NetworkScheduler.Stats( 4869): (ELIMINADO) La tarea %s/%s comenzó su ejecución. Causa: %s exec_start_elapsed_seconds: %s
+08-02 02:10:32.955 D/CompatibilityInfo( 3214): Indicadores de compatibilidad - 4
+08-02 02:10:32.955 D/CompatibilityInfo(3214): Densidad de la aplicación - 320
+08-02 02:10:32.956 D/CompatibilityInfo( 3214): applicationScale - 1.0
+08-02 02:10:33.038 D/SamsungAlarmManager(3214): setinexact Intent (T:3/F:0/AC:false) 20260802T022456 - CU:10007/CP:4869
+08-02 02:10:33.048 I/NetworkScheduler.Stats(4869): (ELIMINADO) La tarea %s/%s finalizó su ejecución. Causa: %s Resultado: %s milisegundos transcurridos: %s milisegundos de tiempo de actividad: %s segundos transcurridos al inicio de la ejecución: %s
+08-02 02:10:33.069 D/CompatibilityInfo( 3214): Indicadores de compatibilidad - 4
+08-02 02:10:33.069 D/CompatibilityInfo(3214): applicationDensity - 320
+08-02 02:10:33.070 D/CompatibilityInfo(3214): applicationScale - 1.0
+08-02 02:10:33.082 D/CompatibilityInfo(3214): mCompatibilityFlags - 4
+08-02 02:10:33.082 D/CompatibilityInfo( 3214): Densidad de la aplicación - 320
+08-02 02:10:33.082 D/CompatibilityInfo(3214): applicationScale - 1.0
+08-02 02:10:33.110 D/SamsungAlarmManager(3214): Cancelar alarma llamando desde uid:10007 pid:4869/ op:PendingIntent{ba93547: PendingIntentRecord{d7fc399 com.google.android.gms broadcastIntent}}
+08-02 02:10:33.151 I/NearbySharing(4651): El estado de la red cambió: NetworkState (isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+08-02 02:10:33.217 D/SamsungAlarmManager( 3214): setinexact Intent (T:3/F:0/AC:false) 20260802T022456- CU:10007/CP:4869
+08-02 02:10:33.326 D/InputReader( 3214): Evento de entrada(1): valor=1 cuando=24050658191000
+08-02 02:10:33.326 I/InputReader(3214): La acción del evento táctil es OxO (tipo de dispositivo=0) [pCnt=1, s=0.10693] cuando-24050658191000
+08-02 02:10:33.326 I/InputDispatcher(3214): Entregando toque a (3504): acción: Ox4, toolType: 1
+08-02 02:10:33.326 I/InputDispatcher(3214): Entregando toque a (6780): acción: Ox0, tipo de herramienta: 1
+08-02 02:10:33.327 D/ViewRootImpl@eb75fbb[ZArchiver]( 6780): ViewPostimeInputStage processPointer O
+08-02 02:10:33.415 D/InputReader(3214): Evento de entrada(1): valor=0 cuando=24050747546000
+08-02 02:10:33.415 I/InputReader(3214): La acción del evento táctil es Ox1 (deviceType=0) [pCnt=1, s=] cuando=24050747546000
+08-02 02:10:33.415 I/InputDispatcher( 3214): Entregando toque a (6780): acción: Ox1, tipo de herramienta: 1
+08-02 02:10:33.416 D/ViewRootImpl@eb75fbb[ZArchiver]( 6780): ViewPostImeInputStage processPointer 1
+08-02 02:10:33.596 l/audio_hw_primary( 2718): do_out_standby +
+08-02 02:10:33.620 D/audio_hw_primary( 2718): dispositivos de salida:0
+08-02 02:10:33.620 D/audio hw primario(2718): dispositivos de salida devices:0
