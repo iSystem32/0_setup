@@ -1,0 +1,214 @@
+-------- inicio del sistema
+.948 D/ConnectivityService (3214): enviando notificación para NetworkRequest [ id=773,
+legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
+.948 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=773, legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
+.949 D/ConnectivityService (3214): enviando notificación para solicitud de red [ id=774,
+LegacyType=-1, [ Transportes: CELULAR WIFI Capacidades: NO_RESTRINGIDO&CONFIABLE&NO_VPN]]
+.949 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=774, LegacyType=-1, [ Transportes: WIFI CELULAR Capacidades: NO_RESTRINGIDO&CONFIABLE&NO_VPN]]
+.949 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=776,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.949 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=776, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.949 D/ConnectivityService (3214): enviando notificación para NetworkRequest [ id=777,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.949 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=777, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.949 D/ConnectivityService( 3214): enviando notificación para NetworkRequest [ id=785,
+legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.949 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=785, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.950 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=786,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.950 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=786, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+comienzo de principal
+.950 D/QSIconView( 3504): getColor: Label = Mega_2.4G_4D28, color = -11091739
+.950 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=789,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.950 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=789, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.950 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=791,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.950 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=791, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.950 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=793,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.951 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=793, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.951 D/ConnectivityService( 3214): enviando notificación para NetworkRequest [ id=803,
+legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
+.951 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=803, LegacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRINGIDO&CONFIABLE&NO_VPN]]
+.951 D/ConnectivityService( 3214): enviando notificación para NetworkRequest [id=826,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.951 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=826, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.951 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=827,
+legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.951 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=827, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.952 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=833,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.952 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=833, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.952 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=847,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.952 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=847, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.952 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=848,
+LegacyType=-1, [ Capacidades: NO_RESTRICCIONADO&CONFIABLE&NO_VPN]]
+.952 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=848, LegacyType=-1, [ Capacidades: NO_RESTRICCIONADO&CONFIABLE&NO_VPN]]
+.952 D/ConnectivityService( 3214): enviando notificación para NetworkRequest [id=850,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.952 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=850, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.953 D/ConnectivityService( 3214): enviando notificación para NetworkRequest [id=851,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.953 D/ConnectivityService(3214): enviando notificación CAP CAMBIADO para NetworkRequest
+[id=851, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.953 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=856,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.953 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para solicitud de red
+[id=856, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]]
+.953 D/ConnectivityService( 3214): enviando notificación para NetworkRequest [ id=857,
+legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.953 D/ConnectivityService(3214): enviando notificación CAP_CHANGED para NetworkRequest
+[id=857, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.953 D/ConnectivityService(3214): enviando notificación para NetworkRequest [ id=858,
+legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.953 D/ConnectivityService (3214): enviando notificación CAP CAMBIADO para NetworkRequest
+[id=858, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+.963 D/QSIconView( 3504): getColor: Label = Mega_2.4G_4D28, color = -11091739
+.964 D/Monitor de actualización de Keyguard (3504): transmisión recibida
+com.samsung.systemui.ACTION_VOIP_CALL_STATE_CHANGED
+.965 V/hong (3504): mid yDiff = 280
+.965 Vhong (3504): mid yDiff = 280
+.965 Vhong (3504): mid yDiff = 280
+.965 V/hong (3504): mid yDiff = 280
+.966 D/CarrierText( 3504): updateCarrierText(): 0, DefaultText = Sin conexión de red
+.966 D/MultiSimUtils( 3504): isSimStateReadyorNot Ready(): simSlot = 0, simState = NOT_READY
+.966 D/CarrierText( 3504): setText: Perfil Fuera de línea
+.968 D/Keyguard ClockPage( 3504): on RefreshCarrierInfo(pre, now): false, false
+08-02 09:15:04.036 D/InputReader(3214): Input event(1): value=0 when=49521368241000
+08-02 09:15:04.036 I/InputReader(3214): Touch event's action is Ox1 (deviceType=0) [pCnt=1, s=] when-49521368241000
+08-02 09:15:04.036 I/InputDispatcher(3214): Delivering touch to (27535): action: Ox1, toolType: 1
+08-02 09:15:04.038 D/ViewRootImpl@3df8283 [SearchActivity] (27535): ViewPostImeInputStage process Pointer 1
+08-02 09:15:04.455 I/NearbySharing (30770): Network state changed: NetworkState (isRestricted=false, isOnline=true, isCongested=false, isMetered-false, isWifiConnected=true)
+08-02 09:15:06.610 D/NetworkController(3504): updateCarrierText: Mega_2.4G_4D28
+08-02 09:15:06.611 D/NetworkController( 3504): dynamically Reduce TextSize: mDisplayMetrics.densityDpi320
+08-02 09:15:06.631 D/KeyguardUpdate Monitor( 3504): received broadcast com.samsung.systemui.ACTION_VOIP_CALL_STATE_CHANGED
+08-02 09:15:06.632 D/CarrierText( 3504): updateCarrierText(): 0, DefaultText = Sin conexión de red
+08-02 09:15:06.632 D/MultiSimUtils( 3504): isSimStateReadyor Not Ready(): simSlot = 0, simState = NOT_READY
+08-02 09:15:06.632 D/CarrierText( 3504): setText: Perfil Fuera de línea
+08-02 09:15:06.636 D/Keyguard ClockPage( 3504): on RefreshCarrierInfo(pre, now): false, false
+08-02 09:15:06.662 D/SSRM:t (3214): SIOP:: AP = 430, PST = 434 (W:10), CUR = -2, LCD = 66
+08-02 09:15:06.663 D/I (3214): limitCPU Freq:: freq = 1500000
+08-02 09:15:06.665 D/CustomFrequency ManagerService(3214): releaseDVFSLockLocked: Getting Lock type frm List: DVFS_MAX_LIMIT frequency: 1400000 uid: 1000 pid: 3214 tag: SIOP_ARM_MAX@38
+08-02 09:15:06.667 D/CustomFrequencyManagerService(3214): acquireDVFSLockLocked: type : DVFS_MAX_LIMIT frequency: 1500000 uid: 1000 pid: 3214 pkgName: SIOP_ARM_MAX@38
+08-02 09:15:06.677 D/TelephonyManager(3214): getAllCellInfo: Caller (PID / UID / TID): 3214/1000/9690
+08-02 09:15:06.956 D/WifiStateMachine(3214): ConnectedState !CMD_RSSI_POLL rt=49524281/56666417 16 O "Mega_2.4G_4D28" f8:79:28:69:4d:28 rssi--62 f=2447 sc=60 link=52 tx=89.2, 0.0, 0.0 rx=165.5 bcn=0 [on: 0 tx:0 rx:0 period:3007] from screen [on:0 period:-1047888183] gl hn rssi=-57 ag=0 hr ticks 0,0,254 Is-=0 [56,56,60,60,65] brc=0 Irc=0 offload-stopped
+08-02 09:15:06.961 D/WifiStateMachine(3214): L2ConnectedState !CMD_RSSI POLL rt=49524288/56666424 16 O "Mega_2.4G 4D28" f8:79:28:69:4d:28 rssi--62 f=2447 sc=60 link=52 tx=89.2, 0.0, 0.0 rx=165.5 bcn=0 [on:0 tx:0 rx:0 period:7] from screen [on:0 period:-1047888176] gl hn rssi--57 ag=0 hr ticks 0,0,254 Is--0 [56,56,60,60,65] brc=0 Irc=0 offload-stopped
+08-02 09:15:06.962 D/WifiStateMachine( 3214): get link layer stats O
+08-02 09:15:06.963 D/WifiNative-wlan0(3214): doString: [SIGNAL_POLL]
+08-02 09:15:06.964 D/wpa_supplicant(3438): wlan0: Control interface command 'SIGNAL_POLL'
+08-02 09:15:06.973 D/WifiStateMachine (3214): fetchRssiLinkSpeedAnd FrequencyNative rssi=-62 linkspeed=39 freq=2447
+08-02 09:15:06.979 D/WifiConfigManager(3214): updateConfiguration freq=2447 BSSID=f8:79:28:69:4d:28 RSSI=-62 "Mega_2.4G_4D28"WPA_PSK
+08-02 09:15:06.982 D/WifiStateMachine(3214): calculate WifiScore freq=2447 speed=39 score=60 highRSSI -> txbadrate=0.00 txgoodrate=52.58 txretriesrate=0.00 rxrate=90.75 userTriggerd PenaltyO
+08-02 09:15:06.983 D/WifiStateMachine(3214): good link -> stuck count =0
+08-02 09:15:06.985 D/WifiStateMachine( 3214): badRSSI counto lowRSSI count0 --> score 60
+08-02 09:15:06.985 D/WifiStateMachine( 3214): isHighRSSI ---> score=65
+08-02 09:15:06.987 D/WifiStateMachine( 3214): Current network is: "Mega_2.4G_4D28", ID is: 0
+08-02 09:15:06.987 D/WifiStateMachine(3214): not enough dual-band rssi, bail out...
+08-02 09:15:06.990 D/NetworkController(3504): onReceive: intent=Intent { act=android.net.wifi.RSSI_CHANGED flg=0x4000010 launchParam-MultiScreen LaunchParams { mDisplayId=0 mFlags=0} bqHint=1 (has extras) }
+08-02 09:15:07.128 E/Watchdog (3214): !@Sync 1648 [2026-08-02 09:15:07.127]
+08-02 09:15:08.618 D/NetworkController(3504): updateCarrierText: Mega_2.4G_4D28
+08-02 09:15:08.618 D/NetworkController( 3504): dynamically Reduce TextSize: mDisplayMetrics.densityDpi320
+08-02 09:15:08.623 D/Keyguard Update Monitor( 3504): received broadcast com.samsung.systemui.ACTION_VOIP_CALL_STATE_CHANGED
+08-02 09:15:08.637 D/CarrierText( 3504): updateCarrierText(): 0,DefaultText = Sin conexión de red
+08-02 09:15:08.638 D/MultiSimUtils( 3504): isSimStateReadyorNotReady(): simSlot = 0, simState = NOT_READY
+08-02 09:15:08.638 D/CarrierText( 3504): setText: Perfil Fuera de línea
+08-02 09:15:08.641 D/KeyguardClockPage( 3504): onRefreshCarrierInfo(pre, now): false, false
+08-02 09:15:09.624 D/NetworkController( 3504): updateCarrierText: Mega_2.4G_4D28
+08-02 09:15:09.626 D/NetworkController( 3504): dynamically Reduce TextSize: mDisplayMetrics.densityDpi320
+08-02 09:15:09.637 D/Keyguard Update Monitor( 3504): received broadcast com.samsung.systemui.ACTION_VOIP_CALL_STATE_CHANGED
+08-02 09:15:09.655 D/CarrierText( 3504): updateCarrierText(): O,DefaultText = Sin conexión de red
+08-02 09:15:09.655 D/MultiSimUtils( 3504): isSimStateReadyorNot Ready(): simSlot = 0, simState = NOT_READY
+08-02 09:15:09.656 D/CarrierText( 3504): setText: Perfil Fuera de línea
+08-02 09:15:09.660 D/Keyguard ClockPage( 3504): on RefreshCarrierInfo(pre, now): false, false
+08-02 09:15:09.731 D/Contacts Provider_EventLog(30823): contents_sample_state: [contacts (24) data(257) cuentas({vnd.sec.contact.phone (1)=1, com.google (2)=23}) cuentas eliminadas({}) llamadas ([]) countrylso(US) usuario(10) ]
+08-02 09:15:09.731 D/Contacts Provider_EventLog(30823): contents_sample_state: [agr({[1]=1, [2]=23}) ]
+08-02 09:15:09.731 D/Contacts Provider_EventLog(30823): contents_sample_state: [actCnt({}) ]
+08-02 09:15:09.788 D/BatteryService( 3214): !@BatteryListener: ¡Propiedades de la batería cambiadas!
+08-02 09:15:09.789 D/BatteryService(3214): presente:verdadero, voltaje: 3765, Temperatura: 354, tecnología: iones de litio, alimentación de CA: falso, alimentación USB: falso, alimentación POGO: falso, inalámbrica alimentado:falso, icono:17303686, cargador no válido:0, corriente de carga máxima:0, voltaje de carga máximo:0, contador de carga:0
+08-02 09:15:09.789 D/BatteryService( 3214): en línea:1, corriente promedio:-374, tipo de carga:0, reparto de energía:falso, alto
+cargador de voltaje:falso, capacidad:280000, autodescarga de batería:falso, evento misceláneo:0, corriente actual:-375
+08-02 09:15:09.789 D/BatteryService(3214): Enviando ACTION_BATTERY_CHANGED.
+08-02 09:15:09.790 E/BatteryStatsService( 3214): power: Falta la API
+08-02 09:15:09.792 D/WifiStateMachine(3214): ConnectedState !CMD_GET_SUPPORTED FEATURES uid=1000 rt=49527124/56669260 0 0 rt=49527125/56669261 0 0
+08-02 09:15:09.793 D/WifiStateMachine(3214): L2ConnectedState !CMD_GET_SUPPORTED FEATURES uid=1000
+08-02 09:15:09.793 D/WifiStateMachine(3214): ConnectModeState !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=49527125/56669261 OO
+08-02 09:15:09.793 D/WifiStateMachine(3214): DriverStartedState !CMD_GET_SUPPORTED FEATURES uid=1000 rt=49527125/56669261 00
+08-02 09:15:09.793 D/WifiStateMachine(3214): SupplicantStartedState !CMD_GET_SUPPORTED_FEATURES
+08-02 09:15:09.793 D/WifiStateMachine(3214): SupplicantStartedState !CMD_GET_SUPPORTED_FEATURES uid=1000 rt=49527125/56669261 OO
+08-02 09:15:09.793 D/WifiStateMachine(3214): DefaultState !CMD_GET_SUPPORTED FEATURES uid=1000 rt=49527125/56669261 0 0
+08-02 09:15:09.794 E/wifi (3214): wifi_get_supported_feature_set devolvió el error = 0xffffffa1
+08-02 09:15:09.798 E/BatteryStatsService(3214): no se proporcionó información de energía del controlador
+08-02 09:15:09.801 E/PhoneInterfaceManager( 5041): [PhoneIntfMgr] queryModemActivityInfo: Respuesta vacía
+08-02 09:15:09.806 W/bt_btif (30816): btif_dm_upstreams_cback ev: BTA_DM_ENER_INFO_READ
+08-02 09:15:09.823 E/BatteryStatsService (3214): la información del módem no es válida: ModemActivityInfo{ mTimestamp=0 mSleepTimeMs=0 mldleTimeMs=0 mTxTimeMs[]=[0, 0, 0, 0, 0] mRxTimeMs=0 mEnergyUsed=0} mLowBattery TriggerLevel: 0, mUltraPowerSaving ModeEnabled: false, mEmergency ModeEnabled: false)
+08-02 09:15:09.828 D/Monitor de actualización de Keyguard (3504): transmisión recibida
+08-02 09:15:09.828 D/Keyguard Update Monitor( 3504): maneja la actualización de la batería
+08-02 09:15:09.829 D/PowerUI (3504): mostrando diálogo de uso compartido de energía falsa
+08-02 09:15:09.829 D/PowerUI (3504): priorPlugType = 0 mPlugType = O
+08-02 09:15:09.832 D/Battery MeterDrawable( 3504): isSomethingChanged - true
+08-02 09:15:09.832 D/BatteryMeterDrawable( 3504): isSomethingChanged - true
+08-02 09:15:09.833 D/Controlador de batería (3504): onReceive - ACTION_BATTERY_CHANGED: mLevel = 100
+08-02 09:15:09.841 V/HeadsetService(30816): HeadsetService - Intent recibido.ACTION_BATTERY_CHANGED
+08-02 09:15:09.841 D/HeadsetStateMachine (30816): Mensaje de proceso desconectado: 10, tamaño: 0
+08-02 09:15:09.871 W/SemDesktopModeManager( 3504): isDesktopMode: La función Modo Escritorio no está disponible.
+08-02 09:15:09.996 D/WifiStateMachine( 3214): ConnectedState !CMD_RSSI POLL rt=49527318/56669454 16 O "Mega_2.4G 4D28" f8:79:28:69:4d:28 rssi=-62 f=2447 sc=60 link=39 tx=52.6, 0.0, 0.0 rx=90.8 bcn=0 [on: 0 tx:0 rx:0 periodo:3005] desde la pantalla [on:0 periodo:-1047885141] gl hn rssi=-57 ag=0 hr ticks 0,0,254 Is-=0 [56,56,60,60,65] brc=0 Irc=0 descarga detenida
+08-02 09:15:10.005 D/WifiStateMachine(3214): L2ConnectedState !CMD_RSSI POLL rt=49527329/56669465 16 O "Mega_2.4G 4D28" f8:79:28:69:4d:28 rssi--62 f=2447 sc=60 link=39 tx=52.6, 0.0, 0.0 rx=90.8 bcn=0 [on:0 tx:0 rx:0 periodo:9] desde la pantalla [on:0 periodo:-1047885132] gl hn rssi=-57 ag=0 hr ticks 0,0,254 Is-=0 [56,56,60,60,65] brc=0 Irc=0 descarga detenida
+08-02 09:15:10.005 D/WifiStateMachine(3214): obtener estadísticas de la capa de enlace O
+08-02 09:15:10.006 D/WifiNative-wlan0(3214): doString: [SIGNAL_POLL]
+08-02 09:15:10.007 D/wpa_supplicant(3438): wlan0: Comando de interfaz de control 'SIGNAL_POLL'
+08-02 09:15:10.016 D/WifiStateMachine(3214): fetchRssiLinkSpeedAnd FrequencyNative rssi=-70 linkspeed=39 frecuencia=2447
+08-02 09:15:10.020 D/ConnectivityService(3214): updateCapabilities: oldCap = [ Transportes: WIFI Capacidades: SIN MEDICIÓN DE PAGOS, INTERNET, SIN RESTRINGIR, DE CONFIANZA, SIN VPN Y VALIDADO LinkUpBandwidth>=1048576Kbps LinkDnBandwidth>=1048576Kbps SignalStrength: -62], newCap = [ Transportes: WIFI Capacidades: SIN MEDICIÓN, INTERNET, SIN RESTRINGIR, DE CONFIANZA, SIN VPN
+[Ancho de banda de enlace ascendente >= 1048576 Kbps] [Ancho de banda de enlace descendente >= 1048576 Kbps] [Intensidad de señal: -70]
+08-02 09:15:10.020 D/ConnectivityService( 3214): recoincidiendo NetworkAgentInfo [WIFI () - 502]
+08-02 09:15:10.021 D/WifiConfigManager( 3214): actualizaciónConfiguración freq=2447 BSSID=f8:79:28:69:4d:28 RSSI=-66 "Mega_2.4G_4D28"WPA_PSK
+08-02 09:15:10.021 D/ConnectivityService(3214): la red tiene: [ Transportes: WIFI Capacidades: SIN MEDICIÓN DE PAGOS, INTERNET, SIN RESTRINGIR, DE CONFIANZA, SIN VPN Y VALIDADO [Ancho de banda de enlace ascendente >= 1048576 Kbps] [Ancho de banda de enlace descendente >= 1048576 Kbps] [Intensidad de señal: -70]
+08-02 09:15:10.021 D/ConnectivityService( 3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 856. Sin cambios.
+08-02 09:15:10.021 D/ConnectivityService( 3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=826, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.022 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=791, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.022 D/ConnectivityService (3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=757, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.022 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=675, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.022 D/ConnectivityService(3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 851. Sin cambios.
+08-02 09:15:10.022 D/ConnectivityService(3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 833. Sin cambios.
+08-02 09:15:10.023 D/ConnectivityService( 3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=803, legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
+08-02 09:15:10.023 D/ConnectivityService( 3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=672, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.026 D/ConnectivityService( 3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=848, LegacyType=-1, [ Capacidades: NO_RESTRICCIONADO&CONFIABLE&NO_VPN]]
+08-02 09:15:10.026 D/NetworkController( 3504): onReceive: intent=Intent { act= android.net .wifi.RSSI_CHANGED flg=0x4000010 launchParam=MultiScreen LaunchParams { mDisplayId=0 mFlags=0} bqHint=1 (tiene extras) }
+08-02 09:15:10.026 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=717, legacyType=-1, [ Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.026 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=678, legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
+08-02 09:15:10.026 D/NetworkController( 3504): updateCarrierText: Mega_2.4G_4D28
+08-02 09:15:10.026 D/ConnectivityService( 3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 1. Sin cambios.
+08-02 09:15:10.026 D/ConnectivityService( 3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 715. Sin cambios.
+08-02 09:15:10.026 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=3, legacyType=-1, []]
+08-02 09:15:10.026 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=731, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.027 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=719, legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
+08-02 09:15:10.027 D/ConnectivityService(3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 753. Sin cambios.
+08-02 09:15:10.027 D/NetworkController( 3504): Reducir dinámicamente el tamaño del texto: mDisplayMetrics.densityDpi320
+08-02 09:15:10.027 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=857, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.027 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: NetworkRequest [ id=789, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.027 D/ConnectivityService(3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 785. Sin cambios.
+08-02 09:15:10.027 D/ConnectivityService( 3214): comprobando si la solicitud está satisfecha: NetworkRequest [id=786, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.027 D/ConnectivityService(3214): Network NetworkAgentInfo [WIFI () - 502] ya estaba Satisfaciendo la solicitud 730. Sin cambios.
+08-02 09:15:10.027 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=858, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.028 D/WifiStateMachine( 3214): calculateWifiScore freq=2447 speed=39 score=60 -> txbadrate=0.00 txgoodrate=26.79 txretriesrate=0.00 rxrate=45.38 userTriggerd PenaltyO
+08-02 09:15:10.028 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=850, legacyType=-1, [Capacidades: INTERNET&NOT_RESTRICTED&TRUSTED]]
+08-02 09:15:10.028 D/ConnectivityService(3214): comprobando si la solicitud está satisfecha: Solicitud de red [ id=772, legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
+08-02 09:15:10.028 D/WifiStateMachine(3214): enlace correcto -> contador de atascos=0
+08-02 09:15:10.028 D/ConnectivityService( 3214): comprobando si la solicitud está satisfecha: NetworkRequest [id=773, legacyType=-1, [ Transportes: WIFI Capacidades: NO_RESTRICTED&TRUSTED&NOT_VPN]]
