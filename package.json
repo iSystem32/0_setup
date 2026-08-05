@@ -1,8 +1,16 @@
 {
+ iSystem32-patch-2
   "endpoint": "/repos/iSystem32/0_setup/contents?ref=iSystem32-parche-2",
   "page": 1,
   "perPage": 30,
   "repo": "iSystem32/0_setup",
   "task": "list files in branch iSystem32-parche-2",
   "userQuery": "List files at repository root for branch iSystem32-parche-2 in iSystem32/0_setup"
+=======
+  "endpoint": "/repos/iSystem32/0_setup/contents?ref=main",
+  "page": 1,
+  "perPage": 100,
+  "repo": "iSystem32/0_setup",
+  "task": "list repository root contents on main branch",
+  "userQuery": "List files in root of iSystem32/0_setup on branch main to include in README audit"> iSystem32-patch-1
 }
