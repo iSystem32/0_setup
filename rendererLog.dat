@@ -1,0 +1,24 @@
+
+
+
+--------- Registro del sistema
+--------- beginning of crash
+
+ F/libc (394): crash_dump helper failed to exec, or was killed
+ F/libc (394): crash_dump helper failed to exec, or was killed
+ F/libc (394): crash_dump helper failed to exec, or was killed
+ F/libc (394): crash_dump helper failed to exec, or was killed
+ F/libc (394): crash_dump helper failed to exec, or was killed
+ E/AndroidRuntime(21020): FATAL EXCEPTION: binder:21020_2
+ E/AndroidRuntime(21020): Process: com.google.android.calendar, PID: 21020
+ E/AndroidRuntime(21020): java.lang.OutOfMemoryError: Failed to allocate a 16 byte allocation with 842568 free bytes and 822KB until OOM, target footprint 134217728, growth limit 134217728; giving up on allocation because <1% of heap free after GC.
+ E/AndroidRuntime(21020): at android.os.Binder.execTransact(Binder.java:1242)
+--------- beginning of system
+ W/ActivityManager(1255): Rescheduling restart of crashed service com.longcheertel.cit/.ModemDebugService in 29981ms for mem-pressure-event
+ l/lq ThermalManagerService(1255): getBoardTemp: 42000
+ I/Thermal ControlBrightness(1255): keep curBrightness  1/ PowerManagerService(1255): getBoard Temp for outdoor mode: 42000
+ W/ActivityManager(1255): Rescheduling restart of crashed service com.longcheertel.cit/.Modem DebugService in 5859ms for mem-pressure-event
+ W/DisplayPolicy(1255): miuibooster onScroll package name: com.facebook.katana 2000 20.11.01.700 UL.
+--------- Registro del sistema
+--------- beginning of crash
+--------- beginning of system
